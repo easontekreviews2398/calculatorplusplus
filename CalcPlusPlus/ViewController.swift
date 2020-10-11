@@ -71,6 +71,7 @@ class ViewController: UIViewController {
             previousOnScreen = Double(label.text!)!
             operation = sender.tag
             performingMath = true
+            label.text = ""
         }
         else if sender.tag == 16 {
             if operation == 12 {
