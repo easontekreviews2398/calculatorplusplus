@@ -302,7 +302,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MF8-5Z-2KC">
-                                <rect key="frame" x="0.0" y="160" width="414" height="39"/>
+                                <rect key="frame" x="0.0" y="160" width="414" height="38"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Launch With Forest Theme"/>
@@ -311,7 +311,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXU-qq-3Fp">
-                                <rect key="frame" x="0.0" y="369" width="415" height="40"/>
+                                <rect key="frame" x="0.0" y="368" width="415" height="41"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Launch With Canary Theme"/>
@@ -329,7 +329,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biH-Ee-zcv">
-                                <rect key="frame" x="0.0" y="255" width="414" height="40"/>
+                                <rect key="frame" x="0.0" y="255" width="414" height="39"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Launch With Inferno Theme"/>
@@ -952,8 +952,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 0.3.1 ASC Beta - Build 00217" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2J-CU-wMc">
-                                <rect key="frame" x="20" y="130" width="227" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 0.3.3 ASC Beta - Build 00221" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2J-CU-wMc">
+                                <rect key="frame" x="20" y="130" width="230" height="16"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                 <nil key="textColor"/>
@@ -986,7 +986,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="0">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="75v-J0-XsX"/>
@@ -998,7 +998,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="fNw-LY-n8G"/>
@@ -1010,7 +1010,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="OWJ-vb-S0b"/>
@@ -1022,7 +1022,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="3">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="3rr-bz-aJR"/>
@@ -1034,7 +1034,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="4">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="wiq-ag-lko"/>
@@ -1046,7 +1046,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="5">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="Ux2-rC-8sx"/>
@@ -1058,7 +1058,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="6">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="LW9-ew-OzC"/>
@@ -1070,7 +1070,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="7">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="EMG-dZ-lGH"/>
@@ -1082,7 +1082,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="8">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="sOu-Yr-9XU"/>
@@ -1094,7 +1094,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="X^y">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="7rE-sN-FU2"/>
@@ -1106,7 +1106,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="9">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="k9h-zH-qkE"/>
@@ -1118,7 +1118,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="=">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="zha-NT-RXj"/>
@@ -1130,7 +1130,7 @@
                                 <color key="backgroundColor" red="0.88934155047807462" green="0.85588477013334407" blue="0.0074502266114700351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="Clear">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="Bao-xJ-X14"/>
@@ -1149,7 +1149,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="π">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="xpv-XK-pFO"/>
@@ -1162,7 +1162,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="÷">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="f21-ZL-nux"/>
@@ -1174,7 +1174,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="-">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="lIF-yY-SDc"/>
@@ -1186,7 +1186,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="x">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="5mK-IS-Uf9"/>
@@ -1198,7 +1198,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title="+">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="operations:" destination="6we-rP-cXg" eventType="touchUpInside" id="NkM-P6-sFD"/>
@@ -1210,7 +1210,7 @@
                                 <color key="backgroundColor" red="0.97285371185630876" green="0.9362552273622069" blue="0.0081498279364582114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <state key="normal" title=".">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="XsM-Wa-sLm"/>
@@ -1222,7 +1222,7 @@
                                 <color key="backgroundColor" red="0.93190855621009749" green="0.89685041701741519" blue="0.0078068205867597709" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="31"/>
                                 <state key="normal" title="- / +">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="button:" destination="6we-rP-cXg" eventType="touchUpInside" id="vtk-uS-MOw"/>
