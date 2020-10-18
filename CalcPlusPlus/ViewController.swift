@@ -71,7 +71,6 @@ class ViewController: UIViewController {
             previousOnScreen = Double(label.text!)!
             operation = sender.tag
             performingMath = true
-            label.text = ""
         }
         else if sender.tag == 16 {
             if operation == 12 {
@@ -90,10 +89,7 @@ class ViewController: UIViewController {
                 label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
             }
             else if operation == 27 {
-                sqrt(Double(previousOnScreen))
-            }
-            else if operation == 28 {
-                cbrt(Double(previousOnScreen))
+                label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
             }
         } else if sender.tag == 11 {
             allclear()
