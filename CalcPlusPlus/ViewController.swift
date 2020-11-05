@@ -16,11 +16,13 @@ class ViewController: UIViewController {
     var operation = 0;
     var negative = false
     var ver = false
+    var decimalIsPresent = false
     func allclear() {
         label.text = ""
         previousOnScreen = 0;
         operation = 0;
         numberOnScreen = 0;
+        decimalIsPresent = false;
         negative = false
         ver = false
     }
@@ -38,7 +40,12 @@ class ViewController: UIViewController {
                 label.text = "3.141592653589"
             }
         } else if sender.tag == 17 {
-            label.text = String(label.text! + ".")
+            if decimalIsPresent == false {
+                label.text = String(label.text! + ".")
+                decimalIsPresent = true
+            } else if decimalIsPresent == true {
+                label.text = String(label.text!)
+            }
         } else if sender.tag == 23 {
         } else if sender.tag == 19 {
             if negative == false{
@@ -54,10 +61,6 @@ class ViewController: UIViewController {
                 allclear()
                 label.text = label.text! + String(sender.tag - 1)
                 numberOnScreen = Double(label.text!)!
-            }  else if sender.tag == 20 {
-                label.text = String(numberOnScreen * numberOnScreen)
-            }  else if sender.tag == 21 {
-                label.text = String(numberOnScreen * numberOnScreen * numberOnScreen)
             }
         }
   
@@ -67,29 +70,39 @@ class ViewController: UIViewController {
     @IBAction func operations(_ sender: UIButton) {
         
         if label.text != "" && sender.tag != 11 && sender.tag != 16 {
-            
-            previousOnScreen = Double(label.text!)!
-            operation = sender.tag
-            performingMath = true
+            if ver == false {
+                previousOnScreen = Double(label.text!)!
+                operation = sender.tag
+                performingMath = true
+                decimalIsPresent = false
+            }
         }
         else if sender.tag == 16 {
-            if operation == 12 {
-                label.text = String(previousOnScreen / numberOnScreen)
-            }
-            else if operation == 13 {
-                label.text = String(previousOnScreen * numberOnScreen)
-            }
-            else if operation == 14 {
-                label.text = String(previousOnScreen - numberOnScreen)
-            }
-            else if operation == 15 {
-                label.text = String(previousOnScreen + numberOnScreen)
-            }
-            else if operation == 22 {
-                label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
-            }
-            else if operation == 27 {
-                label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
+            if ver == false {
+                if operation == 12 {
+                    label.text = String(previousOnScreen / numberOnScreen)
+                }
+                else if operation == 13 {
+                    label.text = String(previousOnScreen * numberOnScreen)
+                }
+                else if operation == 14 {
+                    label.text = String(previousOnScreen - numberOnScreen)
+                }
+                else if operation == 15 {
+                    label.text = String(previousOnScreen + numberOnScreen)
+                }
+                else if operation == 22 {
+                    label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
+                }
+                else if operation == 27 {
+                    label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
+                } else if label.text == "43243551" {
+                    label.text = String("Version 1.1ascbeta")
+                    ver = true
+                } else if label.text == "533411731" {
+                    label.text = String("Build 1130")
+                    ver = true
+                }
             }
         } else if sender.tag == 11 {
             allclear()
