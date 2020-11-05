@@ -3,6 +3,8 @@ An Open-Source Calculator Project!
 
 THIS IS THE APP STORE CONNECT BETA CHANNEL SOURCE CODE
 
+NO BINARY HAHAHAHA
+Build it yourself, it is Not that hard!!!!
 
 This is a remake of Calc++, an old project of mine.
 I am bringing it back to life now!
