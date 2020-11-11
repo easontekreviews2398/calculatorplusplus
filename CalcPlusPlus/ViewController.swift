@@ -7,11 +7,10 @@
 //
 
 import UIKit
-
+import WebKit
 class ViewController: UIViewController {
-    
-    var numberOnScreen:Double = 0;
-    var previousOnScreen:Double = 0;
+    var numberOnScreen:Float64 = 0;
+    var previousOnScreen:Float64 = 0;
     var performingMath = false
     var operation = 0;
     var negative = false
@@ -27,14 +26,14 @@ class ViewController: UIViewController {
         ver = false
     }
     
-
+    
     @IBOutlet weak var label: UILabel!
     
     @IBAction func button(_ sender: UIButton) {
         if performingMath == true {
             if sender.tag != 23 {
                 label.text = String(sender.tag - 1)
-                numberOnScreen = Double(label.text!)!
+                numberOnScreen = Float64(label.text!)!
                 performingMath = false
             } else if sender.tag == 23 {
                 label.text = "3.141592653589"
@@ -56,11 +55,11 @@ class ViewController: UIViewController {
         } else {
             if ver == false {
                 label.text = label.text! + String(sender.tag - 1)
-                numberOnScreen = Double(label.text!)!
+                numberOnScreen = Float64(label.text!)!
             } else if ver == true {
                 allclear()
                 label.text = label.text! + String(sender.tag - 1)
-                numberOnScreen = Double(label.text!)!
+                numberOnScreen = Float64(label.text!)!
             }
         }
   
@@ -97,10 +96,10 @@ class ViewController: UIViewController {
                 else if operation == 27 {
                     label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
                 } else if label.text == "43243551" {
-                    label.text = String("Version 1.1ascbeta")
+                    label.text = String("Version 1.1.3ascbeta")
                     ver = true
                 } else if label.text == "533411731" {
-                    label.text = String("Build 1130")
+                    label.text = String("Build 1201")
                     ver = true
                 }
             }
