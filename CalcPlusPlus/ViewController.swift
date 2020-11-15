@@ -96,10 +96,10 @@ class ViewController: UIViewController {
                 else if operation == 27 {
                     label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
                 } else if label.text == "43243551" {
-                    label.text = String("Version 1.1.3ascbeta")
+                    label.text = String("Version 1.2rc1")
                     ver = true
                 } else if label.text == "533411731" {
-                    label.text = String("Build 1201")
+                    label.text = String("Build 1313")
                     ver = true
                 }
             }
