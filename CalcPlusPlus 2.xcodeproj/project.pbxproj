@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53C645A2564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C53C64592564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C53C64602564D0D500834C6A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53C645E2564D0D500834C6A /* Interface.storyboard */; };
+		C53C64622564D0D600834C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53C64612564D0D600834C6A /* Assets.xcassets */; };
+		C53C64692564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C53C64682564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C53C646E2564D0D600834C6A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C646D2564D0D600834C6A /* InterfaceController.swift */; };
+		C53C64702564D0D600834C6A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C646F2564D0D600834C6A /* ExtensionDelegate.swift */; };
+		C53C64722564D0D600834C6A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C64712564D0D600834C6A /* ComplicationController.swift */; };
+		C53C64742564D0D700834C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53C64732564D0D700834C6A /* Assets.xcassets */; };
+		C54CD937252B325900AF43E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CD936252B325900AF43E4 /* AppDelegate.swift */; };
+		C54CD939252B325900AF43E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CD938252B325900AF43E4 /* SceneDelegate.swift */; };
+		C54CD93B252B325900AF43E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CD93A252B325900AF43E4 /* ViewController.swift */; };
+		C54CD93E252B325900AF43E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54CD93C252B325900AF43E4 /* Main.storyboard */; };
+		C54CD940252B325C00AF43E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54CD93F252B325C00AF43E4 /* Assets.xcassets */; };
+		C54CD943252B325C00AF43E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54CD941252B325C00AF43E4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53C645B2564D0D500834C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54CD92B252B325900AF43E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53C64582564D0D500834C6A;
+			remoteInfo = "CalcPlusPlusWatch WatchKit App";
+		};
+		C53C646A2564D0D600834C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54CD92B252B325900AF43E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53C64672564D0D600834C6A;
+			remoteInfo = "CalcPlusPlusWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C53C64782564D0D700834C6A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C53C645A2564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C647B2564D0D700834C6A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C53C64692564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C53C64562564D0D400834C6A /* CalcPlusPlusWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcPlusPlusWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C64592564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcPlusPlusWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C645F2564D0D500834C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C53C64612564D0D600834C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53C64632564D0D600834C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53C64682564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalcPlusPlusWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53C646D2564D0D600834C6A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C53C646F2564D0D600834C6A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C53C64712564D0D600834C6A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C53C64732564D0D700834C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53C64752564D0D700834C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5414A3C252DE30C00CB72DB /* CalcPlusPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalcPlusPlus.entitlements; sourceTree = "<group>"; };
+		C54CD933252B325900AF43E4 /* CalcPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54CD936252B325900AF43E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C54CD938252B325900AF43E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C54CD93A252B325900AF43E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C54CD93D252B325900AF43E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54CD93F252B325C00AF43E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54CD942252B325C00AF43E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54CD944252B325C00AF43E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53C64652564D0D600834C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54CD930252B325900AF43E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53C645D2564D0D500834C6A /* CalcPlusPlusWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C53C645E2564D0D500834C6A /* Interface.storyboard */,
+				C53C64612564D0D600834C6A /* Assets.xcassets */,
+				C53C64632564D0D600834C6A /* Info.plist */,
+			);
+			path = "CalcPlusPlusWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C53C646C2564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C53C646D2564D0D600834C6A /* InterfaceController.swift */,
+				C53C646F2564D0D600834C6A /* ExtensionDelegate.swift */,
+				C53C64712564D0D600834C6A /* ComplicationController.swift */,
+				C53C64732564D0D700834C6A /* Assets.xcassets */,
+				C53C64752564D0D700834C6A /* Info.plist */,
+			);
+			path = "CalcPlusPlusWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C54CD92A252B325900AF43E4 = {
+			isa = PBXGroup;
+			children = (
+				C54CD935252B325900AF43E4 /* CalcPlusPlus */,
+				C53C645D2564D0D500834C6A /* CalcPlusPlusWatch WatchKit App */,
+				C53C646C2564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension */,
+				C54CD934252B325900AF43E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54CD934252B325900AF43E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54CD933252B325900AF43E4 /* CalcPlusPlus.app */,
+				C53C64562564D0D400834C6A /* CalcPlusPlusWatch.app */,
+				C53C64592564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app */,
+				C53C64682564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54CD935252B325900AF43E4 /* CalcPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				C5414A3C252DE30C00CB72DB /* CalcPlusPlus.entitlements */,
+				C54CD936252B325900AF43E4 /* AppDelegate.swift */,
+				C54CD938252B325900AF43E4 /* SceneDelegate.swift */,
+				C54CD93A252B325900AF43E4 /* ViewController.swift */,
+				C54CD93C252B325900AF43E4 /* Main.storyboard */,
+				C54CD93F252B325C00AF43E4 /* Assets.xcassets */,
+				C54CD941252B325C00AF43E4 /* LaunchScreen.storyboard */,
+				C54CD944252B325C00AF43E4 /* Info.plist */,
+			);
+			path = CalcPlusPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53C64552564D0D400834C6A /* CalcPlusPlusWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C64802564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch" */;
+			buildPhases = (
+				C53C64542564D0D400834C6A /* Resources */,
+				C53C64782564D0D700834C6A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53C645C2564D0D500834C6A /* PBXTargetDependency */,
+			);
+			name = CalcPlusPlusWatch;
+			productName = CalcPlusPlusWatch;
+			productReference = C53C64562564D0D400834C6A /* CalcPlusPlusWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C53C64582564D0D500834C6A /* CalcPlusPlusWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C647F2564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit App" */;
+			buildPhases = (
+				C53C64572564D0D500834C6A /* Resources */,
+				C53C647B2564D0D700834C6A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53C646B2564D0D600834C6A /* PBXTargetDependency */,
+			);
+			name = "CalcPlusPlusWatch WatchKit App";
+			productName = "CalcPlusPlusWatch WatchKit App";
+			productReference = C53C64592564D0D500834C6A /* CalcPlusPlusWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C53C64672564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53C647E2564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit Extension" */;
+			buildPhases = (
+				C53C64642564D0D600834C6A /* Sources */,
+				C53C64652564D0D600834C6A /* Frameworks */,
+				C53C64662564D0D600834C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalcPlusPlusWatch WatchKit Extension";
+			productName = "CalcPlusPlusWatch WatchKit Extension";
+			productReference = C53C64682564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C54CD932252B325900AF43E4 /* CalcPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54CD947252B325C00AF43E4 /* Build configuration list for PBXNativeTarget "CalcPlusPlus" */;
+			buildPhases = (
+				C54CD92F252B325900AF43E4 /* Sources */,
+				C54CD930252B325900AF43E4 /* Frameworks */,
+				C54CD931252B325900AF43E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcPlusPlus;
+			productName = CalcPlusPlus;
+			productReference = C54CD933252B325900AF43E4 /* CalcPlusPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54CD92B252B325900AF43E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C53C64552564D0D400834C6A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C53C64582564D0D500834C6A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C53C64672564D0D600834C6A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C54CD932252B325900AF43E4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C54CD92E252B325900AF43E4 /* Build configuration list for PBXProject "CalcPlusPlus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54CD92A252B325900AF43E4;
+			productRefGroup = C54CD934252B325900AF43E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54CD932252B325900AF43E4 /* CalcPlusPlus */,
+				C53C64552564D0D400834C6A /* CalcPlusPlusWatch */,
+				C53C64582564D0D500834C6A /* CalcPlusPlusWatch WatchKit App */,
+				C53C64672564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53C64542564D0D400834C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C64572564D0D500834C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C64622564D0D600834C6A /* Assets.xcassets in Resources */,
+				C53C64602564D0D500834C6A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53C64662564D0D600834C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C64742564D0D700834C6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54CD931252B325900AF43E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54CD943252B325C00AF43E4 /* LaunchScreen.storyboard in Resources */,
+				C54CD940252B325C00AF43E4 /* Assets.xcassets in Resources */,
+				C54CD93E252B325900AF43E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53C64642564D0D600834C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C64702564D0D600834C6A /* ExtensionDelegate.swift in Sources */,
+				C53C646E2564D0D600834C6A /* InterfaceController.swift in Sources */,
+				C53C64722564D0D600834C6A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54CD92F252B325900AF43E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54CD93B252B325900AF43E4 /* ViewController.swift in Sources */,
+				C54CD937252B325900AF43E4 /* AppDelegate.swift in Sources */,
+				C54CD939252B325900AF43E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53C645C2564D0D500834C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53C64582564D0D500834C6A /* CalcPlusPlusWatch WatchKit App */;
+			targetProxy = C53C645B2564D0D500834C6A /* PBXContainerItemProxy */;
+		};
+		C53C646B2564D0D600834C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53C64672564D0D600834C6A /* CalcPlusPlusWatch WatchKit Extension */;
+			targetProxy = C53C646A2564D0D600834C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C53C645E2564D0D500834C6A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53C645F2564D0D500834C6A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		C54CD93C252B325900AF43E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54CD93D252B325900AF43E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54CD941252B325C00AF43E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54CD942252B325C00AF43E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53C64762564D0D700834C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C53C64772564D0D700834C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C53C64792564D0D700834C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				IBSC_MODULE = CalcPlusPlusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C53C647A2564D0D700834C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				IBSC_MODULE = CalcPlusPlusWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit App/Info.plist";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		C53C647C2564D0D700834C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C53C647D2564D0D700834C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = "CalcPlusPlusWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalcPlusPlusWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		C54CD945252B325C00AF43E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C54CD946252B325C00AF43E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54CD948252B325C00AF43E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalcPlusPlus/CalcPlusPlus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = CalcPlusPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalculPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54CD949252B325C00AF43E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CalcPlusPlus/CalcPlusPlus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2010;
+				DEVELOPMENT_TEAM = SED69PSTK5;
+				INFOPLIST_FILE = CalcPlusPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.CalculPlusPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53C647E2564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C647C2564D0D700834C6A /* Debug */,
+				C53C647D2564D0D700834C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C647F2564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C64792564D0D700834C6A /* Debug */,
+				C53C647A2564D0D700834C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53C64802564D0D700834C6A /* Build configuration list for PBXNativeTarget "CalcPlusPlusWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53C64762564D0D700834C6A /* Debug */,
+				C53C64772564D0D700834C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54CD92E252B325900AF43E4 /* Build configuration list for PBXProject "CalcPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54CD945252B325C00AF43E4 /* Debug */,
+				C54CD946252B325C00AF43E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54CD947252B325C00AF43E4 /* Build configuration list for PBXNativeTarget "CalcPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54CD948252B325C00AF43E4 /* Debug */,
+				C54CD949252B325C00AF43E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54CD92B252B325900AF43E4 /* Project object */;
+}

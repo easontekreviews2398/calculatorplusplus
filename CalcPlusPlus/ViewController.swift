@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var negative = false
     var ver = false
     var decimalIsPresent = false
+    var resultOfCalculation: Float64 = 0
     func allclear() {
         label.text = ""
         previousOnScreen = 0;
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
         decimalIsPresent = false;
         negative = false
         ver = false
+        resultOfCalculation = 0
     }
     
     
@@ -74,21 +76,36 @@ class ViewController: UIViewController {
                 operation = sender.tag
                 performingMath = true
                 decimalIsPresent = false
+                
             }
         }
         else if sender.tag == 16 {
             if ver == false {
                 if operation == 12 {
-                    label.text = String(previousOnScreen / numberOnScreen)
+                    resultOfCalculation = previousOnScreen / numberOnScreen
+                    label.text = String(resultOfCalculation)
+                    resultOfCalculation = previousOnScreen
+                    resultOfCalculation = 0
                 }
                 else if operation == 13 {
-                    label.text = String(previousOnScreen * numberOnScreen)
+                    resultOfCalculation = previousOnScreen * numberOnScreen
+                    label.text = String(resultOfCalculation)
+                    resultOfCalculation = previousOnScreen
+                    resultOfCalculation = 0
+
                 }
                 else if operation == 14 {
-                    label.text = String(previousOnScreen - numberOnScreen)
+                    resultOfCalculation = previousOnScreen - numberOnScreen
+                    label.text = String(resultOfCalculation)
+                    resultOfCalculation = previousOnScreen
+                    resultOfCalculation = 0
                 }
                 else if operation == 15 {
-                    label.text = String(previousOnScreen + numberOnScreen)
+                    resultOfCalculation = previousOnScreen + numberOnScreen
+                    label.text = String(resultOfCalculation)
+                    resultOfCalculation = previousOnScreen
+                    resultOfCalculation = 0
+
                 }
                 else if operation == 22 {
                     label.text = String(pow(Double(previousOnScreen),(Double(numberOnScreen))))
@@ -96,10 +113,10 @@ class ViewController: UIViewController {
                 else if operation == 27 {
                     label.text = String(pow(Double(previousOnScreen), Double( 1 / numberOnScreen)))
                 } else if label.text == "43243551" {
-                    label.text = String("Version 2.0ascalpha2")
+                    label.text = String("Version 2.0.1beta2")
                     ver = true
                 } else if label.text == "533411731" {
-                    label.text = String("Build 2010")
+                    label.text = String("Build 2131")
                     ver = true
                 }
             }
