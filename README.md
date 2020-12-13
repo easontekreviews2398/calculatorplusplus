@@ -1,7 +1,8 @@
 # calculatorplusplus
 An Open-Source Calculator Project!
 
-THIS IS THE APP STORE CONNECT BETA CHANNEL SOURCE CODE
+This is the beta channel Src, NO MORE ASC BETA AND PUB BETA YAY...
+Very Unstable...
 
 NO BINARY HAHAHAHA
 Build it yourself, it is Not that hard!!!!
